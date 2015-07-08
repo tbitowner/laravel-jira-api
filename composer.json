@@ -1,6 +1,7 @@
 {
     "name": "endeavors/jira",
-    "description": "",
+    "description": "Easy to use jira api",
+    "keywords": ["jira-api-restclient","jira-api","jira","laravel"],
     "authors": [
         {
             "name": "adam",
@@ -9,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.1.*",
+        "illuminate/support": "4.*|5.*",
         "chobie/jira-api-restclient": "2.0.*@dev"
     },
     "autoload": {
@@ -22,3 +23,4 @@
     },
     "minimum-stability": "dev"
 }
+
