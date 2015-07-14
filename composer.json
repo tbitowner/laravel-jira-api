@@ -20,6 +20,6 @@
             "Endeavors\\Jira\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
 
