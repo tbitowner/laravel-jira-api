@@ -64,6 +64,11 @@ class JiraServiceProvider extends ServiceProvider {
 		return "http://" . $config['api_url'];
 	}
 
+	/**
+	 * Load the configuration for accessing Jira.
+	 *
+	 * @return array
+	 */
 	public function loadConfiguration()
 	{
 		$filesystem = new \Illuminate\Filesystem\FileSystem;
