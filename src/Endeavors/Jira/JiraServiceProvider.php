@@ -33,8 +33,11 @@ class JiraServiceProvider extends ServiceProvider {
 			$config = $this->loadConfiguration();
 
 			return new \Endeavors\Jira\Rest\Api(
+				
 			    $this->getJiraApiUrl(),
+			    
 			    new \chobie\Jira\Api\Authentication\Basic($config['name'], $config['password'])
+			    
 			);
 		});
 	}
