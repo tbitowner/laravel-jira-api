@@ -1,6 +1,6 @@
 {
     "name": "endeavors/jira",
-    "description": "Easy to use jira api",
+    "description": "Easy to use client to access jira",
     "keywords": ["jira-api-restclient","jira-api","jira","laravel-jira", "laravel"],
     "authors": [
         {
