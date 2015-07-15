@@ -12,7 +12,7 @@ class Project extends JiraModel
 
 	protected $id;
 
-	protected $name;
+	public $name;
 
 	protected $issueTypes;
 

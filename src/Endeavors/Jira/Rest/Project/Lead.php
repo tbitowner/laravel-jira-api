@@ -4,13 +4,13 @@ use Endeavors\Jira\Rest\JiraModel;
 
 class Lead extends JiraModel
 {
-	protected $name;
+	public $name;
 
-	protected $displayName;
+	public $displayName;
 
-	protected $active;
+	public $active;
 
-	protected $lead;
+	public $lead;
 
 	public function __construct(array $lead = array())
 	{
